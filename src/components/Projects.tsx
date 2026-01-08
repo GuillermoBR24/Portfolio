@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import diappbetesImage from '../assets/images/diappbetes.png';
+import logoImage from '../assets/images/logo.png';
 
 interface Project {
   id: number;
@@ -35,58 +36,13 @@ const Projects: React.FC = () => {
       title: 'Portfolio',
       description: 'Portfolio personal desarrollado con React y Tailwind CSS.',
       technologies: ['React', 'Tailwind CSS', 'TypeScript'],
-      image: '/api/placeholder/600/400',
+      image: logoImage,
       liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/juandev/portfolio',
+      githubUrl: 'https://github.com/GuillermoBR24/Portfolio',
       category: 'web',
       role: 'Full Stack Developer',
       featured: true
-    }/*,
-    {
-      id: 3,
-      title: 'Portfolio CMS System',
-      description: 'Sistema de gestión de contenidos para portfolios profesionales con editor visual, SEO optimizado y múltiples plantillas personalizables. Más de 1000 usuarios activos.',
-      technologies: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'Vercel', 'GraphQL'],
-      image: '/api/placeholder/600/400',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/juandev/portfolio-cms',
-      category: 'web',
-      role: 'Frontend Lead',
-      featured: true
-    },
-    {
-      id: 4,
-      title: 'Weather Dashboard',
-      description: 'Dashboard meteorológico interactivo con pronósticos detallados, mapas en tiempo real y alertas personalizadas para múltiples ubicaciones.',
-      technologies: ['Vue.js', 'Chart.js', 'OpenWeather API', 'CSS Grid', 'PWA'],
-      image: '/api/placeholder/600/400',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/juandev/weather',
-      category: 'web',
-      role: 'Frontend Developer'
-    },
-    {
-      id: 5,
-      title: 'Fitness Tracker App',
-      description: 'Aplicación de seguimiento fitness con registro de ejercicios, planes personalizados, análisis de progreso y comunidad integrada.',
-      technologies: ['React Native', 'Express.js', 'MongoDB', 'JWT Auth', 'Socket.io'],
-      image: '/api/placeholder/600/400',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/juandev/fitness',
-      category: 'mobile',
-      role: 'Full Stack Developer'
-    },
-    {
-      id: 6,
-      title: 'Blog Platform',
-      description: 'Plataforma de blogging con markdown support, comentarios en tiempo real, sistema de etiquetas y panel de administración completo.',
-      technologies: ['Gatsby', 'GraphQL', 'Netlify CMS', 'Styled Components', 'SEO'],
-      image: '/api/placeholder/600/400',
-      liveUrl: 'https://example.com',
-      githubUrl: 'https://github.com/juandev/blog',
-      category: 'web',
-      role: 'Frontend Developer'
-    } */
+    }
   ];
 
   const categories = [

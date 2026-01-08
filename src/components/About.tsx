@@ -155,7 +155,7 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-
+        {/*
         <div className="bg-gradient-to-r from-primary-50 to-primary-100 p-8 rounded-lg">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Mi Filosofía Profesional</h3>
           <div className="grid md:grid-cols-2 gap-8">
@@ -193,6 +193,7 @@ const About: React.FC = () => {
             </div>
           </div>
         </div>
+        */}
       </div>
     </section>
   );

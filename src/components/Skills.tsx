@@ -14,9 +14,9 @@ const Skills: React.FC = () => {
     {
       title: 'Frontend',
       skills: [
-        { name: 'React', level: 90, icon: '⚛️' },
-        { name: 'TypeScript', level: 85, icon: '📘' },
-        { name: 'JavaScript', level: 95, icon: '🟨' },
+        { name: 'Angular', level: 90, icon: '🅰️' },
+        { name: 'TypeScript', level: 95, icon: '📘' },
+        { name: 'JavaScript', level: 85, icon: '🟨' },
         { name: 'HTML5/CSS3', level: 90, icon: '🎨' },
         { name: 'Tailwind CSS', level: 85, icon: '🌊' },
         { name: 'Vue.js', level: 75, icon: '💚' },
@@ -27,21 +27,19 @@ const Skills: React.FC = () => {
       title: 'Backend',
       skills: [
         { name: 'Node.js', level: 85, icon: '🟢' },
-        { name: 'Express.js', level: 80, icon: '🚂' },
-        { name: 'MongoDB', level: 75, icon: '🍃' },
+        { name: 'Supabase', level: 85, icon: '⚡' },
         { name: 'PostgreSQL', level: 70, icon: '🐘' },
         { name: 'REST APIs', level: 85, icon: '🔌' },
-        { name: 'GraphQL', level: 65, icon: '◈' },
-        { name: 'Prisma', level: 70, icon: '🔷' },
+        { name: 'Java', level: 65, icon: '♨️' },
+        { name: 'SQL', level: 70, icon: '🛢️' },
       ]
     },
     {
       title: 'Mobile',
       skills: [
-        { name: 'React Native', level: 80, icon: '📱' },
-        { name: 'Flutter', level: 70, icon: '🦋' },
-        { name: 'iOS (Swift)', level: 60, icon: '🍎' },
-        { name: 'Android (Kotlin)', level: 65, icon: '🤖' },
+        { name: 'Android (Kotlin)', level: 85, icon: '🤖' },
+        { name: 'React Native', level: 70, icon: '📱' },
+        { name: 'Flutter', level: 65, icon: '🦋' },
       ]
     },
     {
@@ -49,8 +47,6 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'Git', level: 90, icon: '📦' },
         { name: 'Docker', level: 70, icon: '🐳' },
-        { name: 'AWS', level: 65, icon: '☁️' },
-        { name: 'Vercel', level: 85, icon: '▲' },
         { name: 'Figma', level: 75, icon: '🎯' },
         { name: 'Jest', level: 75, icon: '🧪' },
       ]
@@ -70,10 +66,10 @@ const Skills: React.FC = () => {
   };
 
   const learning = [
-    { name: 'Rust', description: 'Aprendiendo para sistemas de alto rendimiento', icon: '🦀' },
-    { name: 'Kubernetes', description: 'Orquestación de contenedores a escala', icon: '☸️' },
-    { name: 'WebAssembly', description: 'Rendimiento near-native en web', icon: '🌐' },
-    { name: 'AI/ML', description: 'Integración de inteligencia artificial', icon: '🤖' },
+    { name: 'Python', description: 'Aprendiendo para desarrollo backend y análisis de datos', icon: '🐍' },
+    { name: 'Java Avanzado', description: 'Profundizando en frameworks y patrones de diseño', icon: '☕' },
+    { name: 'Angular Avanzado', description: 'Dominando arquitecturas enterprise y RxJS', icon: '🅰️' },
+    { name: 'Spring Boot', description: 'Aprendiendo microservicios y APIs RESTful', icon: '🍃' },
   ];
 
   return (
@@ -137,10 +133,10 @@ const Skills: React.FC = () => {
             </div>
             <div className="text-center p-4">
               <div className="w-16 h-16 mx-auto mb-4 bg-primary-100 rounded-full flex items-center justify-center">
-                <span className="text-2xl">📜</span>
+                <span className="text-2xl">☕</span>
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">AWS Cloud Practitioner</h4>
-              <p className="text-gray-600 text-sm">Fundamentos de cloud computing</p>
+              <h4 className="font-semibold text-gray-900 mb-2">Java SE Developer</h4>
+              <p className="text-gray-600 text-sm">Programación y desarrollo con Java</p>
             </div>
             <div className="text-center p-4">
               <div className="w-16 h-16 mx-auto mb-4 bg-primary-100 rounded-full flex items-center justify-center">
