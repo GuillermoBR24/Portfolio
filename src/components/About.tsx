@@ -155,45 +155,6 @@ const About: React.FC = () => {
             ))}
           </div>
         </div>
-        {/*
-        <div className="bg-gradient-to-r from-primary-50 to-primary-100 p-8 rounded-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4">Mi Filosofía Profesional</h3>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Creo firmemente que el buen software no solo funciona correctamente, sino que también ofrece una experiencia 
-                excepcional al usuario. Me apasiona aprender constantemente nuevas tecnologías y aplicarlas para resolver 
-                problemas reales.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Busco siempre la excelencia técnica y la colaboración efectiva en equipo para crear 
-                productos que realmente impacten positivamente en las personas y los negocios.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-3">Valores Fundamentales:</h4>
-              <div className="space-y-2">
-                <div className="flex items-center">
-                  <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  <span className="text-gray-700">Calidad y excelencia en cada línea de código</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  <span className="text-gray-700">Aprendizaje continuo y adaptación al cambio</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  <span className="text-gray-700">Colaboración y comunicación efectiva</span>
-                </div>
-                <div className="flex items-center">
-                  <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
-                  <span className="text-gray-700">Orientación a resultados y solución de problemas</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        */}
       </div>
     </section>
   );

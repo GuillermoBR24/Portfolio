@@ -1,4 +1,4 @@
-# Guillermo Dev - Portfolio Profesional
+# Guillermo Barros - Portfolio Profesional
 
 Portfolio web moderno y responsive desarrollado con React, TypeScript y Tailwind CSS. Diseñado para showcase profesional de proyectos y habilidades como Desarrollador de Aplicaciones Multiplataforma.
 
@@ -8,15 +8,18 @@ Portfolio web moderno y responsive desarrollado con React, TypeScript y Tailwind
 - **Responsive**: Optimizado para todos los dispositivos (mobile-first)
 - **TypeScript**: Código tipado y mantenible
 - **SEO Optimizado**: Meta tags, structured data y Open Graph
-- **Navegación Suave**: Scroll suave entre secciones
+- **Navegación Fija**: Header con fondo consistente en toda la página
+- **Contacto Directo**: Botones directos para correo y redes sociales
+- **Código Limpio**: Sin comentarios innecesarios ni código no utilizado
 - **Componentes Modulares**: Arquitectura basada en componentes reutilizables
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Frontend**: React 18, TypeScript, Tailwind CSS
+- **Frontend**: React 19, TypeScript, Tailwind CSS
 - **Build Tool**: Create React App
 - **Icons**: SVG inline icons
-- **Font**: Inter (Google Fonts)
+- **Favicon**: Personalizado (favicon.png)
+- **Manifest**: Configuración PWA optimizada
 
 ## 📁 Estructura del Proyecto
 
@@ -32,7 +35,7 @@ portfolio/
 │   │   ├── About.tsx       # Sobre mí y formación
 │   │   ├── Projects.tsx    # Portfolio de proyectos
 │   │   ├── Skills.tsx      # Habilidades técnicas
-│   │   ├── Contact.tsx     # Formulario de contacto
+│   │   ├── Contact.tsx     # Información de contacto y redes sociales
 │   │   └── Footer.tsx      # Pie de página
 │   ├── App.tsx             # Componente principal
 │   ├── index.css           # Estilos con Tailwind
@@ -44,12 +47,12 @@ portfolio/
 
 ## 🎯 Secciones del Portfolio
 
-1. **Header**: Navegación fija con scroll effects
-2. **Hero**: Presentación personal con llamadas a la acción
+1. **Header**: Navegación fija con fondo consistente
+2. **Hero**: Presentación personal con enlaces directos a GitHub
 3. **About**: Formación académica y experiencia profesional
-4. **Projects**: Portfolio de proyectos con filtros por categoría
+4. **Projects**: Portfolio de proyectos con imágenes personalizadas
 5. **Skills**: Habilidades técnicas con indicadores de nivel
-6. **Contact**: Formulario de contacto y redes sociales
+6. **Contact**: Información de contacto directo y redes sociales
 7. **Footer**: Enlaces rápidos e información de contacto
 
 ## 🚀 Getting Started
@@ -106,10 +109,13 @@ colors: {
 Actualiza la información personal en cada componente:
 
 - **Hero.tsx**: Nombre, título y descripción principal
-- **About.tsx**: Educación y experiencia
-- **Projects.tsx**: Portfolio de proyectos
-- **Skills.tsx**: Habilidades técnicas
-- **Contact.tsx**: Información de contacto
+- **About.tsx**: Educación y experiencia (sin filosofía profesional)
+- **Projects.tsx**: Portfolio de proyectos con imágenes personalizadas
+- **Skills.tsx**: Habilidades técnicas y aprendizaje continuo
+- **Contact.tsx**: Información de contacto y redes sociales
+- **Footer.tsx**: Información de contacto y redes sociales
+- **public/index.html**: Meta tags y SEO
+- **public/manifest.json**: Configuración de PWA
 
 ### SEO y Meta Tags
 
@@ -153,8 +159,9 @@ El build optimizado se generará en la carpeta `build/`.
 Crea un archivo `.env` para variables de entorno:
 
 ```env
-REACT_APP_EMAIL=your-email@example.com
-REACT_APP_PHONE=+34600000000
+REACT_APP_EMAIL=barrosguillermo24@gmail.com
+REACT_APP_LINKEDIN=https://www.linkedin.com/in/guillermo-barros-rodriguez-046665296/
+REACT_APP_GITHUB=https://github.com/GuillermoBR24
 ```
 
 ### Análisis y Tracking
@@ -171,4 +178,4 @@ Este es un portfolio personal, pero si encuentras mejoras o sugerencias, siénte
 
 ---
 
-**Desarrollado con ❤️ por Guillermo Dev**
+**Desarrollado con ❤️ por Guillermo Barros**

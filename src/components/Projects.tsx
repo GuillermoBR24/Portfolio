@@ -108,7 +108,6 @@ const Projects: React.FC = () => {
                     alt={project.title}
                     className="w-[200px] h-[200px] object-cover"
                     onError={(e) => {
-                      // Fallback to gradient if image fails to load
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
                       target.parentElement!.innerHTML = `
