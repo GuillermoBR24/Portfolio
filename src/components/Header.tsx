@@ -19,7 +19,6 @@ const Header: React.FC = () => {
     { name: 'Sobre Mí', href: '#about' },
     { name: 'Proyectos', href: '#projects' },
     { name: 'Habilidades', href: '#skills' },
-    { name: 'Blog', href: '#blog' },
     { name: 'Contacto', href: '#contact' },
   ];
 
@@ -28,7 +27,7 @@ const Header: React.FC = () => {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
           ? 'bg-white dark:bg-gray-900 shadow-md'
-          : 'bg-transparent'
+          : 'bg-white dark:bg-gray-900'
       }`}
     >
       <nav className="container mx-auto px-6 py-4">

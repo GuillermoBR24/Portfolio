@@ -1,39 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Contact: React.FC = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    
-    try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error) {
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-      setTimeout(() => setSubmitStatus('idle'), 5000);
-    }
-  };
 
   const contactInfo = [
     {
@@ -125,6 +92,32 @@ const Contact: React.FC = () => {
                     </a>
                   ))}
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-16 text-center">
+            <div className="bg-gradient-to-r from-primary-50 to-primary-100 p-8 rounded-lg">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">¿Listo para colaborar?</h3>
+              <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
+                Si tienes una oportunidad laboral o un proyecto interesante, no dudes en contactarme
+                a través de mis redes sociales o correo electrónico. Estoy siempre abierto a nuevas experiencias.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <a
+                  href="mailto:barrosguillermo24@gmail.com"
+                  className="px-6 py-3 bg-gradient-to-r from-primary-600 to-primary-700 text-white font-semibold rounded-lg hover:from-primary-700 hover:to-primary-800 transition-all duration-200 transform hover:scale-105"
+                >
+                  Enviar Correo
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/guillermo-barros-rodriguez-046665296/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200 transform hover:scale-105"
+                >
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
