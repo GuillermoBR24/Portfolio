@@ -10,6 +10,14 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      {/*<Blog />*/}
+      <Contact />
+      <Footer />
     </div>
   );
 }
