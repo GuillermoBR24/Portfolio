@@ -54,12 +54,12 @@ const About: React.FC = () => {
   ];
 
   const softSkills = [
-    { name: 'Trabajo en Equipo', level: 95, icon: '🤝' },
-    { name: 'Comunicación', level: 90, icon: '💬' },
-    { name: 'Resolución de Problemas', level: 95, icon: '🧩' },
-    { name: 'Creatividad', level: 85, icon: '💡' },
-    { name: 'Adaptabilidad', level: 90, icon: '🔄' },
-    { name: 'Liderazgo', level: 60, icon: '👥' }
+    { name: 'Trabajo en Equipo', level: 100, icon: '🤝' },
+    { name: 'Comunicación', level: 100, icon: '💬' },
+    { name: 'Resolución de Problemas', level: 100, icon: '🧩' },
+    { name: 'Creatividad', level: 100, icon: '💡' },
+    { name: 'Adaptabilidad', level: 100, icon: '🔄' },
+    { name: 'Resiliencia', level: 100, icon: '👥' }
   ];
 
   return (
@@ -150,7 +150,6 @@ const About: React.FC = () => {
                     style={{ width: `${skill.level}%` }}
                   />
                 </div>
-                <p className="text-sm text-gray-500 mt-1">{skill.level}%</p>
               </div>
             ))}
           </div>
