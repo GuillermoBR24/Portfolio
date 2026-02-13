@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
       id: 3,
       title: 'InazumaVRDex',
       description: 'Aplicacion web para tener toda la informacion centralizada del juego Inazuma Eleven Victory Road.',
-      technologies: ['Angular', 'HTML', 'CSS', 'TypeScript', 'JSON'],
+      technologies: ['Angular', 'JSON', 'HTML', 'CSS', 'TypeScript'],
       image: VCImage,
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/GuillermoBR24/InazumaVRDex',
@@ -119,7 +119,7 @@ const Projects: React.FC = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-[200px] h-[200px] object-cover"
+                    className={`${project.title === 'InazumaVRDex' ? 'w-[200px] h-[200px] object-contain' : 'w-[200px] h-[200px] object-cover'}`}
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
