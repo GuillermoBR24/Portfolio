@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import diappbetesImage from '../assets/images/diappbetes.png';
 import logoImage from '../assets/images/logo.png';
+import VCImage from '../assets/images/VC.png';
 
 interface Project {
   id: number;
@@ -39,6 +40,18 @@ const Projects: React.FC = () => {
       image: logoImage,
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/GuillermoBR24/Portfolio',
+      category: 'web',
+      role: 'Full Stack Developer',
+      featured: true
+    },
+    {
+      id: 3,
+      title: 'InazumaVRDex',
+      description: 'Aplicacion web para tener toda la informacion centralizada del juego Inazuma Eleven Victory Road.',
+      technologies: ['Angular', 'HTML', 'CSS', 'TypeScript', 'JSON'],
+      image: VCImage,
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/GuillermoBR24/InazumaVRDex',
       category: 'web',
       role: 'Full Stack Developer',
       featured: true
