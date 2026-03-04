@@ -119,7 +119,7 @@ const Projects: React.FC = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className={`${project.title === 'InazumaVRDex' ? 'w-[200px] h-[200px] object-contain' : 'w-[200px] h-[200px] object-cover'}`}
+                    className={`${project.title === 'InazumaVRDex' ? 'w-[350px] h-[350px] object-contain' : 'w-[200px] h-[200px] object-cover'}`}
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.style.display = 'none';
