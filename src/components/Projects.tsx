@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import diappbetesImage from '../assets/images/diappbetes.png';
 import logoImage from '../assets/images/logo.png';
 import VCImage from '../assets/images/VC.png';
+import InverTrack from '../assets/images/InverTrack.png';
 
 interface Project {
   id: number;
@@ -42,7 +43,7 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/GuillermoBR24/Portfolio',
       category: 'web',
       role: 'Full Stack Developer',
-      featured: true
+      featured: false
     },
     {
       id: 3,
@@ -53,6 +54,18 @@ const Projects: React.FC = () => {
       liveUrl: 'https://example.com',
       githubUrl: 'https://github.com/GuillermoBR24/InazumaVRDex',
       category: 'web',
+      role: 'Full Stack Developer',
+      featured: true
+    },
+    {
+      id: 4,
+      title: 'InverTrack',
+      description: 'Aplicacion web para el seguimiento de inversiones.',
+      technologies: ['Flutter', 'Dart', 'Supabase', 'PostgreSQL'],
+      image: InverTrack,
+      liveUrl: 'https://example.com',
+      githubUrl: 'https://github.com/GuillermoBR24/InverTrack',
+      category: 'mobile',
       role: 'Full Stack Developer',
       featured: true
     }
